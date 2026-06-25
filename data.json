@@ -1,21 +1,13 @@
 [
   {
     "date": "2026-06-25",
-    "generated": "2026-06-25T02:11:44+00:00",
+    "generated": "2026-06-25T02:13:55+00:00",
     "sections": [
       {
         "author": "Julia de Luca — LatAm Tech Weekly",
         "url": "https://juliadeluca.substack.com/feed",
-        "posts": [
-          {
-            "title": "LatAm Tech Weekly",
-            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-e24",
-            "date": "Jun 21",
-            "iso": "2026-06-21",
-            "summary": "240: The trillionaire, the AI novela, deals of the week... and much more!"
-          }
-        ],
-        "note": null
+        "posts": [],
+        "note": "Feed unavailable (HTTPError)."
       },
       {
         "author": "Ben's Bites",
