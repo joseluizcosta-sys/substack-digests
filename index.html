@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diário Substack — digests semanais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F4F0E6; --card:#FBF8F0; --ink:#1B1A16; --soft:#3A3833;
+    --muted:#6E6A5F; --faint:#9B968A; --rule:rgba(27,26,22,.16);
+    --accent:#9A2B1E; --accent2:#14533C;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Newsreader",Georgia,serif;font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+  .wrap{max-width:820px;margin:0 auto;padding:0 clamp(18px,5vw,40px)}
+
+  /* masthead */
+  header.mast{border-bottom:3px double var(--ink);padding:clamp(26px,5vw,44px) 0 16px;margin-bottom:0}
+  .kicker{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--accent);text-align:center;margin:0 0 10px}
+  h1.title{font-weight:600;font-size:clamp(38px,8vw,68px);line-height:.96;letter-spacing:-.01em;
+    text-align:center;margin:0}
+  .sub{text-align:center;color:var(--muted);font-style:italic;margin:8px 0 0;font-size:16px}
+
+  /* date pills */
+  .dates{position:sticky;top:0;z-index:10;background:var(--paper);
+    border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:clamp(22px,4vw,34px)}
+  .dates-row{display:flex;gap:8px;overflow-x:auto;padding:2px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+  .dates-row::-webkit-scrollbar{height:5px}
+  .dates-row::-webkit-scrollbar-thumb{background:var(--rule);border-radius:3px}
+  .pill{flex:0 0 auto;font-family:"IBM Plex Mono",monospace;font-size:13px;cursor:pointer;
+    border:1px solid var(--rule);background:var(--card);color:var(--soft);
+    padding:8px 14px;border-radius:2px;line-height:1.1;white-space:nowrap;
+    transition:background .18s,color .18s,border-color .18s;text-align:center}
+  .pill .d{font-weight:600;font-size:14px;display:block}
+  .pill .y{font-size:10px;color:var(--faint);letter-spacing:.08em}
+  .pill[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .pill[aria-selected="true"] .y{color:rgba(244,240,230,.7)}
+  .pill:not([aria-selected="true"]):hover{border-color:var(--ink);color:var(--ink)}
+  .pill:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  /* edition */
+  .edition-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+    flex-wrap:wrap;margin-bottom:clamp(18px,3vw,26px)}
+  .edition-head h2{font-weight:600;font-size:clamp(22px,4vw,30px);margin:0;line-height:1.1}
+  .edition-head .gen{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--faint);letter-spacing:.04em}
+
+  section.author{margin:0 0 clamp(26px,4vw,40px)}
+  .author-name{display:flex;align-items:center;gap:12px;font-family:"IBM Plex Mono",monospace;
+    font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent2);
+    margin:0 0 16px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
+  .author-name::after{content:"";flex:1;height:1px;background:var(--rule)}
+
+  article.post{padding:0 0 18px;margin:0 0 18px;border-bottom:1px dotted var(--rule)}
+  article.post:last-child{border-bottom:0;margin-bottom:0}
+  .post-h{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .post-h a{color:var(--ink);text-decoration:none;font-size:clamp(20px,3.4vw,25px);font-weight:600;line-height:1.2}
+  .post-h a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+  .post-date{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--accent);
+    border:1px solid var(--rule);padding:2px 7px;border-radius:2px;white-space:nowrap}
+  .post-sum{color:var(--soft);margin:7px 0 0;font-size:17px;line-height:1.5}
+  .empty{color:var(--muted);font-style:italic;font-size:16px}
+
+  footer{border-top:1px solid var(--rule);margin-top:clamp(30px,6vw,60px);
+    padding:22px 0 50px;text-align:center;font-family:"IBM Plex Mono",monospace;
+    font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+  footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule)}
+  .loading{text-align:center;color:var(--muted);font-style:italic;padding:40px 0}
+
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+  <header class="mast">
+    <div class="wrap">
+      <p class="kicker">Digest semanal · newsletters selecionadas</p>
+      <h1 class="title">Diário Substack</h1>
+      <p class="sub">Toda segunda, o que saiu na semana — Julia de Luca &amp; Ben's Bites.</p>
+    </div>
+  </header>
+
+  <div class="dates">
+    <div class="wrap"><div class="dates-row" id="dates" role="tablist" aria-label="Edições por data"></div></div>
+  </div>
+
+  <main class="wrap" id="edition">
+    <p class="loading">Carregando edições…</p>
+  </main>
+
+  <footer class="wrap">
+    Atualizado automaticamente · <a href="https://github.com/joseluizcosta-sys/substack-digests">github.com/joseluizcosta-sys/substack-digests</a>
+  </footer>
+
+<script>
+const MONTHS = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+function fmtPill(iso){const [y,m,d]=iso.split("-");return {d:`${d} ${MONTHS[+m-1]}`, y:y};}
+function fmtFull(iso){const [y,m,d]=iso.split("-");return `${d} de ${MONTHS[+m-1]} de ${y}`;}
+function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+function renderEdition(ed){
+  const root = document.getElementById("edition");
+  let h = `<div class="edition-head"><h2>Semana de ${fmtFull(ed.date)}</h2></div>`;
+  for(const sec of ed.sections){
+    h += `<section class="author"><div class="author-name">${esc(sec.author)}</div>`;
+    if(sec.posts && sec.posts.length){
+      for(const p of sec.posts){
+        h += `<article class="post"><div class="post-h">`
+           + `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>`
+           + `<span class="post-date">${esc(p.date)}</span></div>`;
+        if(p.summary) h += `<p class="post-sum">${esc(p.summary)}</p>`;
+        h += `</article>`;
+      }
+    } else {
+      h += `<p class="empty">${esc(sec.note || "Sem posts novos nesta semana.")}</p>`;
+    }
+    h += `</section>`;
+  }
+  root.innerHTML = h;
+}
+
+function buildPills(data, onPick){
+  const row = document.getElementById("dates");
+  row.innerHTML = "";
+  data.forEach((ed, i) => {
+    const p = fmtPill(ed.date);
+    const b = document.createElement("button");
+    b.className = "pill"; b.setAttribute("role","tab");
+    b.setAttribute("aria-selected", i===0 ? "true":"false");
+    b.innerHTML = `<span class="d">${p.d}</span><span class="y mono">${p.y}</span>`;
+    b.addEventListener("click", () => {
+      row.querySelectorAll(".pill").forEach(x=>x.setAttribute("aria-selected","false"));
+      b.setAttribute("aria-selected","true");
+      onPick(ed);
+    });
+    row.appendChild(b);
+  });
+}
+
+fetch("data.json", {cache:"no-store"})
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    if(!data.length){ document.getElementById("edition").innerHTML = '<p class="loading">Ainda não há edições.</p>'; return; }
+    buildPills(data, renderEdition);
+    renderEdition(data[0]);
+  })
+  .catch(e => {
+    document.getElementById("edition").innerHTML =
+      '<p class="loading">Não foi possível carregar as edições (' + e.message + ').</p>';
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+[
+  {
+    "date": "2026-06-25",
+    "generated": "2026-06-25T02:11:44+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-e24",
+            "date": "Jun 21",
+            "iso": "2026-06-21",
+            "summary": "240: The trillionaire, the AI novela, deals of the week... and much more!"
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "Record a skill",
+            "url": "https://www.bensbites.com/p/record-a-skill",
+            "date": "Jun 23",
+            "iso": "2026-06-23",
+            "summary": "5.5-cyber vs mythos"
+          },
+          {
+            "title": "The first big exit in AI",
+            "url": "https://www.bensbites.com/p/the-first-big-exit-in-ai",
+            "date": "Jun 18",
+            "iso": "2026-06-18",
+            "summary": "little tools for making life easier"
+          }
+        ],
+        "note": null
+      }
+    ]
+  }
+]
