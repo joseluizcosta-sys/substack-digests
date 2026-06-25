@@ -26,7 +26,7 @@ DATA_JSON = ROOT / "data.json"
 README = ROOT / "README.md"
 
 WINDOW_DAYS = 7
-SUMMARY_MODEL = "claude-haiku-4-5-20251001"
+SUMMARY_MODEL = "claude-sonnet-4-6"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 

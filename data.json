@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-06-25",
-    "generated": "2026-06-25T02:46:18+00:00",
+    "generated": "2026-06-25T02:51:16+00:00",
     "sections": [
       {
         "author": "Julia de Luca — LatAm Tech Weekly",
@@ -12,7 +12,7 @@
             "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-e24",
             "date": "Jun 21",
             "iso": "2026-06-21",
-            "summary": "Reflexão pessoal sobre o valor do tempo e as prioridades autênticas, seguida de análise do IPO record do SpaceX que transformou Elon Musk no primeiro trilionário da história e expõe os riscos ocultos por trás da euforia inicial do mercado."
+            "summary": "O IPO da SpaceX tornou Elon Musk o primeiro trilionário da história, com a ação subindo 37% na primeira semana, mas já surgem sinais de alerta: uma aquisição de US$ 60 bi em ações e uma emissão de bônus de US$ 20 bi logo após captar US$ 75 bi. A edição também traz uma reflexão pessoal do autor sobre tempo, prioridades e a perda da mãe."
           }
         ],
         "note": null
@@ -26,14 +26,14 @@
             "url": "https://www.bensbites.com/p/record-a-skill",
             "date": "Jun 23",
             "iso": "2026-06-23",
-            "summary": "Compartilha Interface Craft, uma coleção de técnicas práticas para excelência em design de interface com 100+ tópicos, 11 capítulos e exemplos interativos. Um recurso educacional para aprimorar habilidades de design e notação visual."
+            "summary": "Resumo semanal da newsletter Ben's Bites com novidades do ecossistema de IA, incluindo o recurso Codex Record & Replay, Artifacts no Claude Code, expansão do programa de cibersegurança da OpenAI e lançamentos de ferramentas como Fugu da Sakana AI e Cursor Automate. Também traz links comentados sobre agentes, automações e tendências do setor."
           },
           {
             "title": "The first big exit in AI",
             "url": "https://www.bensbites.com/p/the-first-big-exit-in-ai",
             "date": "Jun 18",
             "iso": "2026-06-18",
-            "summary": "A publicação relata a aquisição bilionária do Cursor pelo SpaceX e aborda um panorama mais amplo das inovações recentes em IA, incluindo novos produtos de design, financials vazadas do OpenAI e a adoção de agentes em plataformas como Shopify. O autor também compartilha sua experiência usando Codex como agente de trabalho para automações e gestão de conhecimento pessoal."
+            "summary": "Newsletter semanal de IA com destaque para a aquisição do Cursor pela SpaceX por US$ 60 bilhões e o vazamento das finanças da OpenAI, que revelou receita de US$ 13 bilhões contra custos de US$ 34 bilhões em 2025. O autor também compartilha atualizações de ferramentas como Claude Design, Codex e Framer, além de um relato pessoal de automações com agentes de IA."
           }
         ],
         "note": null
