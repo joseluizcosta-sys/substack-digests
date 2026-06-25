@@ -21,7 +21,8 @@ DATA_JSON = ROOT / "data.json"
 README = ROOT / "README.md"
 
 WINDOW_DAYS = 7
-UA = "Mozilla/5.0 (compatible; substack-digests/1.0; +https://github.com/joseluizcosta-sys/substack-digests)"
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 
 FEEDS = [
     {"author": "Julia de Luca — LatAm Tech Weekly", "url": "https://juliadeluca.substack.com/feed"},
@@ -30,7 +31,12 @@ FEEDS = [
 
 
 def fetch(url: str) -> bytes:
-    req = Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
+    req = Request(url, headers={
+        "User-Agent": UA,
+        "Accept": "application/rss+xml, application/xml, text/xml, text/html, */*",
+        "Accept-Language": "en-US,en;q=0.9,pt-BR;q=0.8",
+        "Cache-Control": "no-cache",
+    })
     with urlopen(req, timeout=30) as r:
         return r.read()
 
