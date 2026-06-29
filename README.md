@@ -6,4 +6,5 @@ Weekly digests of selected newsletters, built automatically every Monday by a Gi
 
 ## Editions
 
+- [2026-06-29](digests/substack-2026-06-29.md)
 - [2026-06-25](digests/substack-2026-06-25.md)

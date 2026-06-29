@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-06-29",
+    "generated": "2026-06-29T11:14:46+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-189",
+            "date": "Jun 28",
+            "iso": "2026-06-28",
+            "summary": "241: Update on the AI novela, is Michael Burry picking sides in AI, deals of the week... and much more!"
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "Claude Code in Slack",
+            "url": "https://www.bensbites.com/p/claude-code-in-slack",
+            "date": "Jun 25",
+            "iso": "2026-06-25",
+            "summary": "a tip to get better UI from Codex"
+          },
+          {
+            "title": "Record a skill",
+            "url": "https://www.bensbites.com/p/record-a-skill",
+            "date": "Jun 23",
+            "iso": "2026-06-23",
+            "summary": "Resumo semanal da newsletter Ben's Bites com novidades do ecossistema de IA, incluindo o recurso Codex Record & Replay, Artifacts no Claude Code, expansão do programa de cibersegurança da OpenAI e lançamentos de ferramentas como Fugu da Sakana AI e Cursor Automate. Também traz links comentados sobre agentes, automações e tendências do setor."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-06-25",
     "generated": "2026-06-25T02:51:16+00:00",
     "sections": [
