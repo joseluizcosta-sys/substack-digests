@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-07-20",
+    "generated": "2026-07-20T11:00:01+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-8b3",
+            "date": "Jul 19",
+            "iso": "2026-07-19",
+            "summary": "No mundo saturado de IA, o que diferencia as pessoas não é o acesso à inteligência, mas a disposição de continuar pensando mesmo quando a máquina pode fazer isso por elas. O autor argumenta que os \"maratonistas mentais\" — aqueles que usam a IA como parceira, não como muleta — serão os que mais se destacarão."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "I've got an Inkling",
+            "url": "https://www.bensbites.com/p/ive-got-an-inkling",
+            "date": "Jul 16",
+            "iso": "2026-07-16",
+            "summary": "A Thinking Machines lançou o Inkling, seu primeiro modelo open-weights com janela de contexto de 1M tokens e suporte a texto, imagens e áudio. O resumo também destaca novidades como o GPT-Red da OpenAI, melhorias no Gemini Spark, o Grok Build tornando-se open source e a previsão de Demis Hassabis de que a AGI está a alguns anos de distância."
+          },
+          {
+            "title": "How to use GPT-5.6",
+            "url": "https://www.bensbites.com/p/how-to-use-gpt-56",
+            "date": "Jul 14",
+            "iso": "2026-07-14",
+            "summary": "A OpenAI lançou a série GPT-5.6 com três modelos (Luna, Terra e Sol), cinco níveis de raciocínio e um novo modo Ultra que usa subagentes de forma intensiva. O post também traz atualizações sobre a fusão dos apps ChatGPT e Codex, dicas de uso para não esgotar os limites rapidamente e novidades do setor de IA."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-06-29",
     "generated": "2026-06-29T11:14:46+00:00",
     "sections": [
