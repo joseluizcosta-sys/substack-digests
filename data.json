@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-08-03",
+    "generated": "2026-08-03T11:46:41+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-3a4",
+            "date": "Aug 02",
+            "iso": "2026-08-02",
+            "summary": "O Itaú Unibanco lançou o ia.i, assistente de IA integrado ao seu Superapp com suporte a texto e voz, respaldado por uma plataforma interna chamada Iara que orquestra múltiplos modelos de linguagem. O banco reportou redução de 65% nos custos de IA desde 2022 graças a melhor gestão de tokens e governança centralizada."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "1 Billion ChatGPT users",
+            "url": "https://www.bensbites.com/p/1-billion-chatgpt-users",
+            "date": "Jul 30",
+            "iso": "2026-07-30",
+            "summary": "O ChatGPT está próximo de 1 bilhão de usuários semanais, enquanto o setor fervilha com novidades: OpenAI reduziu custos com seu modelo Sol, Claude da Anthropic encontrou vulnerabilidades em algoritmos criptográficos, e mais de 1.300 funcionários de empresas de IA pedem ao governo dos EUA que regule o ritmo do desenvolvimento."
+          },
+          {
+            "title": "Opus 5 >> Fable 5",
+            "url": "https://www.bensbites.com/p/opus-5-fable-5",
+            "date": "Jul 28",
+            "iso": "2026-07-28",
+            "summary": "O autor comenta o lançamento do Claude Opus 5, comparando-o ao modelo rival em desempenho e custo, e toca em novidades como o modo de voz do ChatGPT integrado ao Codex e a expansão do modo de voz do Claude para modelos mais potentes."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-07-27",
     "generated": "2026-07-27T11:23:16+00:00",
     "sections": [
