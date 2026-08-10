@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-08-10",
+    "generated": "2026-08-10T11:01:04+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-0bd",
+            "date": "Aug 09",
+            "iso": "2026-08-09",
+            "summary": "O ecossistema de venture capital vive uma recuperação ilusória: os IRRs estão em alta, mas as distribuições reais (DPI) seguem historicamente baixas, com fundos de 2021 devolvendo apenas US$ 0,05 por dólar investido após cinco anos. O artigo analisa essa assimetria entre valor no papel e liquidez real, usando dados do primeiro semestre de 2026 para questionar quem de fato reconquistou a confiança dos LPs."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "Ben's session",
+            "url": "https://www.bensbites.com/p/bens-session",
+            "date": "Aug 07",
+            "iso": "2026-08-07",
+            "summary": "O autor relata uma sessão real com um agente de IA para criar uma extensão Chrome que sincroniza slots de tempo arrastados no Google Calendar com um formulário de agendamento, compartilhando lições práticas sobre como guiar agentes de forma eficaz — incluindo a importância de definir critérios claros de conclusão e pedir ao agente que teste o próprio trabalho antes de entregar."
+          },
+          {
+            "title": "I'm using a new agent app",
+            "url": "https://www.bensbites.com/p/im-using-a-new-agent-app",
+            "date": "Aug 06",
+            "iso": "2026-08-06",
+            "summary": "O autor recomenda o app **bb** como hub unificado para usar múltiplos modelos de IA (Claude, GPT, etc.) no desktop e mobile, destacando sua natureza extensível — você pode pedir ao próprio agente que construa plugins e ferramentas adicionais. Ele também reflete sobre o crescimento do perfil de \"builders\" que usam IA para criar suas próprias ferramentas, sem precisar ser desenvolvedores."
+          },
+          {
+            "title": "What my agent knows about me",
+            "url": "https://www.bensbites.com/p/what-my-agent-knows-about-me",
+            "date": "Aug 04",
+            "iso": "2026-08-04",
+            "summary": "O autor compartilha um experimento com um \"reflection engine\" — um prompt que analisa memórias e transcrições pessoais armazenadas no agente de IA para gerar um relatório introspectivo sobre o usuário. A newsletter também traz as principais novidades da semana em IA, incluindo corte de preços da OpenAI no GPT-5.6, o novo modelo Astra, Gemini Robotics 2 e vários lançamentos de modelos e ferramentas para agentes."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-08-03",
     "generated": "2026-08-03T11:46:41+00:00",
     "sections": [
