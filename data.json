@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-08-17",
+    "generated": "2026-08-17T11:10:33+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-7c0",
+            "date": "Aug 16",
+            "iso": "2026-08-16",
+            "summary": "O investimento em IA atingiu US$ 407 bilhões no primeiro semestre de 2026, mas o capital está cada vez mais concentrado em poucas plataformas horizontais, enquanto milhares de empresas de aplicações verticais disputam uma fatia muito menor. O autor observa um paradoxo: a tecnologia de IA se torna mais distribuída, mas o capital que a financia se torna mais concentrado."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "Ben's session #2",
+            "url": "https://www.bensbites.com/p/bens-session-2",
+            "date": "Aug 14",
+            "iso": "2026-08-14",
+            "summary": "Agentes pessoais como Grok Bot e OpenClaw não são produtos radicalmente novos: são apenas uma configuração de pastas, arquivos de instruções e memória em texto. Qualquer pessoa pode montar o mesmo sistema manualmente, escolhendo um agente central ou vários especializados por tarefa."
+          },
+          {
+            "title": "Grok Bot is not what you think",
+            "url": "https://www.bensbites.com/p/grok-bot-is-not-what-you-think",
+            "date": "Aug 13",
+            "iso": "2026-08-13",
+            "summary": "O Grok Bot é uma ferramenta de agentes de IA da xAI com uma abordagem mais simples e personalizada — cada agente recebe um sistema de prompts, pode interagir com outros agentes e acessar apps como Gmail e Slack. O autor, que costumava evitar agentes \"sempre ativos\", achou o formato mais leve e parecido com trocar mensagens no Slack, ao contrário de alternativas como Codex ou Claude."
+          },
+          {
+            "title": "Make it readable",
+            "url": "https://www.bensbites.com/p/make-it-readable",
+            "date": "Aug 11",
+            "iso": "2026-08-11",
+            "summary": "O autor compartilha dois prompts de instrução para melhorar as respostas de IAs — usar o padrão de escrita técnica ASD-STE100 e tratar o usuário como alguém com TDAH — obtendo textos mais claros e diretos. O restante é um compilado de novidades da semana em IA, incluindo atualizações de modelos da OpenAI, Meta e Anthropic, além de ferramentas e leituras recomendadas."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-08-10",
     "generated": "2026-08-10T11:01:04+00:00",
     "sections": [
