@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-31",
+    "generated": "2026-08-31T12:24:44+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [],
+        "note": "Feed unavailable (URLError)."
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [],
+        "note": "Feed unavailable (URLError)."
+      }
+    ]
+  },
+  {
     "date": "2026-08-24",
     "generated": "2026-08-24T11:31:34+00:00",
     "sections": [
