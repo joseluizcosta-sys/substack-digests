@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-09-07",
+    "generated": "2026-09-07T11:45:48+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-8d6",
+            "date": "Sep 06",
+            "iso": "2026-09-06",
+            "summary": "A edição traz um recorte da série *Startups to Watch & Tech Talents*, destacando três startups latino-americanas em estágio inicial — Human Edge AI, Carro Claro e The Cognitive Loop — com foco em IA e seus fundadores. Há também uma nota pessoal da autora sobre a importância de não adiar momentos importantes com quem amamos."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [],
+        "note": "Feed unavailable (URLError)."
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "generated": "2026-08-31T12:24:44+00:00",
     "sections": [
