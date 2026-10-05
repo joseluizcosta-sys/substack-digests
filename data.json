@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-05",
+    "generated": "2026-10-05T11:25:49+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-711",
+            "date": "Oct 04",
+            "iso": "2026-10-04",
+            "summary": "Edição mais curta do LatAm Tech Weekly destacando novos lançamentos de startups latinoamericanas nas áreas de construção civil, AI/SaaS e RH, além de talentos entrando em modo stealth. O autor avisa que a próxima edição também será compacta, pois estará correndo sua terceira maratona."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "OpenAI DevDay 2026",
+            "url": "https://www.bensbites.com/p/openai-devday-2026",
+            "date": "Oct 01",
+            "iso": "2026-10-01",
+            "summary": "O OpenAI DevDay 2026 trouxe como principal novidade os Dots, agentes pessoais proativos integrados ao ChatGPT que orquestram tarefas em segundo plano conectando-se a ferramentas como calendário, e-mail e Slack. Além disso, foram anunciados GPT-6.1 Sol, novos planos Pro, login via ChatGPT para apps de terceiros e um workspace colaborativo chamado ChatGPT Space."
+          },
+          {
+            "title": "Sonnet 5.5 is worth a try",
+            "url": "https://www.bensbites.com/p/sonnet-55-is-worth-a-try",
+            "date": "Sep 29",
+            "iso": "2026-09-29",
+            "summary": "Analisa o lançamento do Claude Sonnet 5.5 e outros destaques de IA da semana, incluindo Manus 2.0, Cue e novidades da OpenAI. O autor compartilha impressões pessoais sobre os modelos enquanto cobre o OpenAI DevDay em San Francisco."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-09-28",
     "generated": "2026-09-28T11:01:29+00:00",
     "sections": [
