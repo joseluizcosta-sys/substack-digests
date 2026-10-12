@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-12",
+    "generated": "2026-10-12T11:04:06+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [],
+        "note": "No new posts this week."
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "Text is so 2023",
+            "url": "https://www.bensbites.com/p/text-is-so-2023",
+            "date": "Oct 08",
+            "iso": "2026-10-08",
+            "summary": "Agentes de IA pessoais dominam os lançamentos da semana — com novos apps, integrações em Slack e Google Workspace, e modelos mais baratos da Anthropic e OpenAI — enquanto o ChatGPT passa a responder com interfaces visuais como gráficos e formulários."
+          },
+          {
+            "title": "Thoughts from San Francisco",
+            "url": "https://www.bensbites.com/p/thoughts-from-san-francisco",
+            "date": "Oct 06",
+            "iso": "2026-10-06",
+            "summary": "Reflexões sobre os diferentes perfis de usuários de IA, desde curiosos até desenvolvedores, com foco em agentes pessoais e suas limitações atuais — memória opaca, threads únicas e loops mal fechados. Destaca também a preferência por velocidade sobre automação em segundo plano e cobre novidades da semana, como mods para o Claude Code e novos produtos de hardware."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "generated": "2026-10-05T11:25:49+00:00",
     "sections": [
