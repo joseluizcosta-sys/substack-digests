@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-10-19",
+    "generated": "2026-10-19T11:07:22+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-c7a",
+            "date": "Oct 18",
+            "iso": "2026-10-18",
+            "summary": "O mercado global de venture capital captou US$ 159 bilhões no terceiro trimestre de 2026, com AI dominando 64% dos investimentos e 27 empresas batendo o recorde de rodadas acima de US$ 1 bilhão. A América Latina segue à margem desse fluxo, tendo levantado cerca de US$ 4 bilhões no acumulado do ano — menos do que uma única rodada de startups como a Safe Superintelligence."
+          },
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-f33",
+            "date": "Oct 14",
+            "iso": "2026-10-14",
+            "summary": "A edição mistura atualização pessoal do autor — participação na Chicago Marathon e convite para o advisory board da FTV Capital — com notícias do setor: Itaú treinando IA contra golpes financeiros, a startup Auro democratizando planejamento financeiro por assinatura e o Neon registrando seu primeiro semestre lucrativo."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "Prompt tips from Anthropic",
+            "url": "https://www.bensbites.com/p/prompt-tips-from-anthropic",
+            "date": "Oct 15",
+            "iso": "2026-10-15",
+            "summary": "Newsletter semanal da Ben's Bites reunindo as principais novidades em IA: novos modelos, ferramentas para agentes, atualizações de produtos e dicas práticas de uso, incluindo sugestões de prompts da Anthropic."
+          },
+          {
+            "title": "Zuck’s wonder...full",
+            "url": "https://www.bensbites.com/p/zucks-wonderfull",
+            "date": "Oct 13",
+            "iso": "2026-10-13",
+            "summary": "Agentes de IA estão mudando a forma como pessoas comuns criam software, permitindo que qualquer um construa ferramentas próprias sem precisar saber programar de verdade. O autor defende que \"código ruim\" gerado por IA não é problema se funciona, e que os agentes serão o caminho para democratizar a criação de software do dia a dia."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "generated": "2026-10-12T11:04:06+00:00",
     "sections": [
