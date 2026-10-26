@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-26",
+    "generated": "2026-10-26T11:45:18+00:00",
+    "sections": [
+      {
+        "author": "Julia de Luca — LatAm Tech Weekly",
+        "url": "https://juliadeluca.substack.com/feed",
+        "posts": [
+          {
+            "title": "LatAm Tech Weekly",
+            "url": "https://juliadeluca.substack.com/p/latam-tech-weekly-1d0",
+            "date": "Oct 25",
+            "iso": "2026-10-25",
+            "summary": "A edição destaca grandes rodadas de investimento no ecossistema tech brasileiro — com destaque para o unicórnio Tractian e a aquisição da Caju pelo iFood — e analisa o iminente IPO da Anthropic, que projeta avaliação de US$ 2 trilhões apesar de um prejuízo contábil bilionário impulsionado por instrumentos financeiros não-caixa."
+          }
+        ],
+        "note": null
+      },
+      {
+        "author": "Ben's Bites",
+        "url": "https://www.bensbites.com/feed",
+        "posts": [
+          {
+            "title": "Claude’s personal agent",
+            "url": "https://www.bensbites.com/p/claudes-personal-agent",
+            "date": "Oct 22",
+            "iso": "2026-10-22",
+            "summary": "A Anthropic lançou o Duet, um app pessoal de agente de IA disponível apenas nos EUA em versão de pesquisa. O autor também descreve como automatizou o processo de curadoria de links do newsletter usando um agente pessoal, após a saída de seu colaborador Keshav."
+          },
+          {
+            "title": "How I built my ‘everything’ app",
+            "url": "https://www.bensbites.com/p/how-i-built-my-everything-app",
+            "date": "Oct 20",
+            "iso": "2026-10-20",
+            "summary": "O autor criou um site pessoal centralizado para gerenciar tarefas, e-mails, CRM e domínios, integrando seus agentes de IA em um único painel visual. O post inclui um vídeo explicativo e instruções para replicar a solução."
+          }
+        ],
+        "note": null
+      }
+    ]
+  },
+  {
     "date": "2026-10-19",
     "generated": "2026-10-19T11:07:22+00:00",
     "sections": [
